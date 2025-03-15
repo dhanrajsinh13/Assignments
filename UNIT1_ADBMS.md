@@ -1,9 +1,9 @@
----
+--
 title: -- 1. Creating the Customer Table
 created: 2025-03-15T13:39:41+05:30
 lastUpdated: 2025-03-15T13:39:44+05:30
 category: 
----
+--
 
 -- 1. Creating the Customer Table
 CREATE TABLE Customer (
