@@ -9,7 +9,7 @@ category:
 
 -- 1. Calculate the square of a number and display on screen
 
-'''
+,,,
 
 DECLARE 
     num NUMBER := 5; 
@@ -19,7 +19,7 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Square of ' || num || ' is ' || square);
 END;
 /
-'''
+,,,
 
 -- 2. Display information of a given student
 
