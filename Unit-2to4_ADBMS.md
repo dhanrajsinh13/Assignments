@@ -8,6 +8,9 @@ category:
 -- PL/SQL Exercises (Unit-2 to 4)
 
 -- 1. Calculate the square of a number and display on screen
+
+'''
+
 DECLARE 
     num NUMBER := 5; 
     square NUMBER;
@@ -16,8 +19,10 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Square of ' || num || ' is ' || square);
 END;
 /
+'''
 
 -- 2. Display information of a given student
+
 DECLARE 
     v_sno Student.sno%TYPE;
     v_sname Student.sname%TYPE;
