@@ -144,8 +144,12 @@ SELECT * FROM Item ORDER BY Qty_On_Hand ASC FETCH FIRST 2 ROWS ONLY;
 ```
 -- 11. Display items ordered as well as not ordered so far
 ```
-SELECT Item.ItemNo, Item.ItemName, NVL(InvItem.InvNo, 'Not Ordered') AS InvoiceStatus
-FROM Item LEFT JOIN InvItem ON Item.ItemNo = InvItem.ItemNo;
+SELECT Item.ItemNo, 
+       Item.ItemName, 
+       NVL(TO_CHAR(InvItem.InvNo), 'Not Ordered') AS InvoiceStatus
+FROM Item 
+LEFT JOIN InvItem 
+ON Item.ItemNo = InvItem.ItemNo;
 ```
 
 -- 12. Create a simple view with item names and item price
