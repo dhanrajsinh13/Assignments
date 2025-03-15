@@ -1,5 +1,5 @@
 --
-title: -- 1. Creating the Customer Table
+title: -- 1. UNIT 1 SQL AND ADVANCE SQL QUERIES
 created: 2025-03-15T13:39:41+05:30
 lastUpdated: 2025-03-15T13:39:44+05:30
 category: 
